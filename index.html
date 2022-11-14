@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <title>Image gallery using bootstrap | Ramana Margam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Faviourites</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://wallpapers.com/">Images</a>
+              <a class="dropdown-item" href="https://www.pexels.com/search/HD%20wallpaper/">Explore</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://www.pexels.com/blog/">More</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <h1>Image Gallery</h1>
+   <section class="A min-vh-100">
+    <div class="container-lg">
+      <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+        <div class="col">
+           <img src="img30.jpg" class="items" alt="pic1">
+        </div>
+          <div class="col">
+            <img src="img25.jpg" class="items" alt="pic2">
+        </div>
+            <div class="col">
+              <img src="img27.jpg" class="items" alt="pic3">
+          </div>
+              <div class="col">
+                <img src="img28.jpg" class="items" alt="pic4">
+            </div>
+                <div class="col">
+                  <img src="img15.jpg" class="items" alt="pic5">
+              </div>
+                  <div class="col">
+                    <img src="img8.jpg" class="items" alt="pic6">
+                  </div>
+                    <div class="col">
+                      <img src="img3.jpg" class="items" alt="pic7">
+                    </div>
+                      <div class="col">
+                        <img src="img21.jpg" class="items" alt="pic8">
+                      </div>
+                        <div class="col">
+                          <img src="img12.jpg" class="items" alt="pic9">
+                        </div>
+                          <div class="col">
+                            <img src="img18.jpg" class="items" alt="pic10">
+                          </div>
+                        <div class="col">
+                          <img src="img19.jpg" class="items" alt="pic11">
+                        </div>
+                        <div class="col">
+                          <img src="img2.jpg" class="items" alt="pic13">
+                        </div>
+                        <div class="col">
+                          <img src="img5.jpg" class="items" alt="pic14">
+                        </div>
+                        <div class="col">
+                          <img src="img32.jpg" class="items" alt="pic15">
+                        </div>
+                        <div class="col">
+                          <img src="img7.jpg" class="items" alt="pic16">
+                        </div>
+                        <div class="col">
+                          <img src="img25.jpg" class="items" alt="pic17">
+                        </div>
+                        <div class="col">
+                          <img src="img11.jpg" class="items" alt="pic18">
+                        </div>
+                        <div class="col">
+                          <img src="img31.jpg" class="items" alt="pic19">
+                        </div>
+                        <div class="col">
+                          <img src="img33.jpg" class="items" alt="pic20">
+                        </div>
+                        <div class="col">
+                          <img src="img34.jpg" class="items" alt="pic21">
+                        </div>
+                        <div class="col">
+                          <img src="img13.jpeg" class="items" alt="pic21">
+                        </div>
+      </div>
+    </div>
+   </section>
+    
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#image-popup">
+  Modal Demo
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="image-popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!--<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>-->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img34.jpg" class="modal-img" alt="Modal Image">
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
